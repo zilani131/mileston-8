@@ -5,11 +5,23 @@ width: fit-content;
 div.countries{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 5px;
+    gap: 20px;
 }
 .card{
     background-color: rgba(145, 145, 212, 0.336);
     border: 2px solid blue;
     border-radius: 25px;
-    padding: 10px 5px;
+  
+}
+.card-child{
+   width: fit-content;
+   margin: 20px auto;
+}
+div h2{
+    width: fit-content;
+    margin: 5px auto;
+}
+div img{
+    width: 250px;
+    height: 150px;
 }

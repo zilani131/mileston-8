@@ -15,8 +15,9 @@ const displayCountries=country=>{
 const countryContainer=country=>{
    
     return `
-    <div class="card"><h2>${country.name.common}</h2>
-    <img src="${country.flags.png}">
+    <div class="card">
+    <div class="card-child"><h2>${country.name.common}</h2>
+    <img src="${country.flags.png}"></div>
     </div>
 
     `
