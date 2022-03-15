@@ -1,0 +1,15 @@
+#main-heading{
+margin: 10px auto;
+width: fit-content;
+}
+div.countries{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+}
+.card{
+    background-color: rgba(145, 145, 212, 0.336);
+    border: 2px solid blue;
+    border-radius: 25px;
+    padding: 10px 5px;
+}
